@@ -1,0 +1,19 @@
+[project]
+name = "lime-agent"
+version = "0.1.0"
+description = "Private local RAG AI Shopping Assistant for cross-border e-commerce."
+readme = "README.md"
+authors = [
+    { name = "Josh Klein", email = "gigacoderx@gmail.com" }
+]
+requires-python = "==3.11.*"
+dependencies = [
+    "fastapi==0.136.3",
+    "python-dotenv==1.2.2",
+    "sse-starlette==3.4.4",
+    "uvicorn==0.48.0",
+]
+
+[build-system]
+requires = ["uv_build>=0.11.3,<0.12.0"]
+build-backend = "uv_build"
